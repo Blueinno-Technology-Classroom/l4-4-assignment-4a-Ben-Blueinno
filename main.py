@@ -1,9 +1,18 @@
 # ✅ Complete this function, replace `pass` with your solution:
 def find_min_max(numbers) -> dict:
-    pass
-
-
-
+    ############ method 2 ############
+    # min = numbers[0]
+    # for num in numbers:
+    #     if num < min:
+    #         min = num
+    # max = numbers[0]
+    # for num in numbers:
+    #     if num > max:
+    #         max = num
+    ############ method 2 ############
+    mymin = min(numbers)
+    mymax = max(numbers)
+    return {'min': mymin, 'max': mymax}
 
 
 ############### ❌ DO NOT change these lines ###############
